@@ -21,3 +21,6 @@
 import Route from '@ioc:Adonis/Core/Route'
 
 Route.resource('/projects', 'ProjectsController').apiOnly()
+Route.resource('/tasks', 'TasksController').apiOnly()
+Route.resource('/milestones', 'MilestonesController').apiOnly()
+Route.resource('tasksMilestones', 'TasksMilestonesController').apiOnly()
